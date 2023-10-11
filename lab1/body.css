@@ -1,0 +1,124 @@
+html {
+    font-family: sans-serif;
+}
+
+p {
+    display: inline;
+}
+
+.edges_margins_row td:first-child {
+    text-align: left
+}
+
+.edges_margins_row td:last-child {
+    text-align: right;
+}
+
+.edges_margins_row td {
+    text-align: center;
+}
+
+.fixed_table {
+    table-layout: fixed;
+    margin-top: 0.8em;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lined-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.lined-table td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.no-select {
+    user-select: none;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.bg {
+    background-image: url("mongolia.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.rounded {
+    border-radius: 0.6em;
+}
+
+.with-padding {
+    padding: 0.6em;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+.fixed-table {
+    table-layout: fixed;
+}
+
+#history_table td {
+    text-align: center;
+}
+
+#history_table th {
+    background-color: white;
+    padding: 0.5em;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+#history_table {
+    overflow: auto;
+    max-height: 73vh;
+    display: block;
+}
+
+#history_table tr:hover {
+    background-color: #e3e1e1;
+}
+
+#main-canvas {
+    height: 30em;
+    width: 30em;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#head_table {
+    table-layout: fixed;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+#head_table td {
+    padding: 0.4em;
+}
+
+#main_table td {
+    vertical-align: top;
+}

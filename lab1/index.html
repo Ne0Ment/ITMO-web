@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html class="bg">
+  <link rel="stylesheet" href="body.css" />
+  <script src="main.js"></script>
+  <head>
+    <table id="head_table">
+      <tr class="edges_margins_row">
+        <td class="white-bg">Михеев Илья Романович</td>
+        <td class="white-bg">P3218</td>
+        <td class="white-bg">Вариант 2810</td>
+      </tr>
+    </table>
+  </head>
+
+  <body>
+    <table class="centered fixed-table" id="main_table">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <div class="white-bg with-padding">
+                  <table>
+                    <tr>
+                      <td>
+                        <p>X:</p>
+                        <input
+                          type="checkbox"
+                          id="x-5"
+                          value="-5"
+                          class="x-box"
+                        />
+                        <label for="x-5" class="no-select"> -5 </label>
+                        <input
+                          type="checkbox"
+                          id="x-4"
+                          value="-4"
+                          class="x-box"
+                        />
+                        <label for="x-4" class="no-select"> -4 </label>
+                        <input
+                          type="checkbox"
+                          id="x-3"
+                          value="-3"
+                          class="x-box"
+                        />
+                        <label for="x-3" class="no-select"> -3 </label>
+                        <input
+                          type="checkbox"
+                          id="x-2"
+                          value="-2"
+                          class="x-box"
+                        />
+                        <label for="x-2" class="no-select"> -2 </label>
+                        <input
+                          type="checkbox"
+                          id="x-1"
+                          value="-1"
+                          class="x-box"
+                        />
+                        <label for="x-1" class="no-select"> -1 </label>
+                        <input type="checkbox" id="x0" value="0" class="x-box" />
+                        <label for="x0" class="no-select"> 0 </label>
+                        <input type="checkbox" id="x1" value="1" class="x-box" />
+                        <label for="x1" class="no-select"> 1 </label>
+                        <input type="checkbox" id="x2" value="2" class="x-box" />
+                        <label for="x2" class="no-select"> 2 </label>
+                        <input type="checkbox" id="x3" value="3" class="x-box" />
+                        <label for="x3" class="no-select"> 3 </label>
+                      </td>
+                    </tr>
+  
+                    <tr>
+                      <td>
+                        <p>Y:</p>
+                        <input type="text" id="y-input" />
+                      </td>
+                    </tr>
+  
+                    <tr>
+                      <td>
+                        <p id="r-text">R:</p>
+                        <button
+                          type="button"
+                          value="1"
+                          class="z-button"
+                        >
+                          1
+                        </button>
+                        <button
+                          type="button"
+                          value="2"
+                          class="z-button"
+                        >
+                          2
+                        </button>
+                        <button
+                          type="button"
+                          value="3"
+                          class="z-button"
+                        >
+                          3
+                        </button>
+                        <button
+                          type="button"
+                          value="4"
+                          class="z-button"
+                        >
+                          4
+                        </button>
+                        <button
+                          type="button"
+                          value="5"
+                          class="z-button"
+                        >
+                          5
+                        </button>
+                      </td>
+                    </tr>
+  
+                    <tr>
+                      <td>
+                        <button type="button" id="submit-button">
+                          Отправить
+                        </button>
+                        <button type="button" id="clear-button">Очистить</button>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="white-bg with-padding centered" id="history-div">
+              </td>
+            </tr>
+          </table>
+        </td>
+
+        <td>
+          <canvas id="main-canvas" width="1000px" height="1000px"></canvas>
+        </td>
+      </tr>
+      <tr>
+        <!-- <td class="white-bg with-padding centered" id="history-div">
+            <table id="history_table" class="lined-table fixed-table"></table>
+          </td> -->
+      </tr>
+    </table>
+  </body>
+  <img src="weblabgraph.png" class="hidden" id="graph-img" />
+</html>
